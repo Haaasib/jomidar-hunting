@@ -131,7 +131,9 @@ ITEMS ICONS ARE IN PNG FOLDER CHECK
 --- weapon setup
 
 If using OX then place in ox_inventory/data/weapons.lua
-  ```  ['weapon_huntingriflenew'] 		           	 = { label = 'Hunting Rifle', 			weight = 1000,	durability = 0.0,	ammoname = 'ammo-sniper',},```
+```  
+  ['weapon_huntingriflenew'] 		           	 = { label = 'Hunting Rifle', 			weight = 1000,	durability = 0.0,	ammoname = 'ammo-sniper',},
+```
 else 
 ----- items.lua
 ```
