@@ -1,5 +1,5 @@
 -- qb-core/shared/items.lua
-
+```
 -- Deer Head item
 ['deer_head'] = {
     name = 'deer_head',
@@ -63,7 +63,8 @@
     combinable = nil,
     description = 'A deer that has been skinned. Ready for further processing.'
 },
-
+```
+```
 --- ox inventory 
 -- Deer Head item
 ['deer_head'] = {
@@ -124,26 +125,34 @@
         image = 'skinnedeer.png'
     }
 }
-
+```
 ITEMS ICONS ARE IN PNG FOLDER CHECK
 
 --- weapon setup
 
 If using OX then place in ox_inventory/data/weapons.lua
-    ['weapon_huntingriflenew'] 		           	 = { label = 'Hunting Rifle', 			weight = 1000,	durability = 0.0,	ammoname = 'ammo-sniper',},
+  ```  ['weapon_huntingriflenew'] 		           	 = { label = 'Hunting Rifle', 			weight = 1000,	durability = 0.0,	ammoname = 'ammo-sniper',},```
 else 
 ----- items.lua
+```
 ['weapon_huntingriflenew'] 		 = {['name'] = 'weapon_huntingriflenew', 	 	  	['label'] = 'Hunting Rifle', 			['weight'] = 23000, 	['type'] = 'weapon', 	['ammotype'] = 'AMMO_SNIPER',			['image'] = 'weapon_huntingriflenew.png', 					['unique'] = true, 		['useable'] = false,["created"] = nil,	['description'] = 'A very accurate Rifle for hunting'},
+```
 ----- weapons.lua
+```
 [`weapon_huntingriflenew`] 		 = {['name'] = 'weapon_huntingriflenew', 	 	['label'] = 'Hunting Rifle', 				['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Ended / Sniped / Shot down / Floored'},
+```
 ----- qb-weapons/config.lua
+```
 ['weapon_huntingriflenew'] 	     = 0.20,
+```
 ----- qb-ambulancejob/config.lua
+```
 [`WEAPON_HUNTINGRIFLENEW`] = Config.WeaponClasses['HIGH_CALIBER'],
+```
 ----- qb-smallresources/client/recoil.lua
+```
 [GetHashKey("weapon_huntingrifle")] = 0.4,
-
-
+```
 
 https://github.com/overextended/ox_lib/releases
 
