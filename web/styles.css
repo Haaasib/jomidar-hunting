@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap";
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+@import "https://assets.nopixel.net/web/fonts/nekst/stylesheet.css";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("fonts/Gilroy-SemiBold.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "AGENCYB";
+  src: url("fonts/AGENCYB.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "AGENCYR";
+  src: url("fonts/AGENCYR.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+#hunting-ui {
+    display: none;
+}
+
+body {
+    background: radial-gradient(30.52% 54.26% at 50% 50%, rgba(34, 37, 48, .88) 0%, rgba(38, 42, 60, .78) 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00d3f8;
+    text-shadow: 0px calc(.092592592vh * 4) calc(.092592592vh * 28) rgba(0, 190, 248, 0.55);
+    font-family: 'AGENCYB'!important;
+    font-size: calc(.092592592vh * 32);
+    font-weight: 700;
+    line-height: 70.5%;
+    margin-top: 50px;
+}
+
+p {
+    color: #ffffff8c;
+    font-family: 'AGENCYB'!important;
+    font-size: calc(.092592592vh * 16);
+    font-weight: 400;
+    line-height: 108.5%;
+    margin: 0;
+}
+
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background: #00d3f8;
+    box-shadow: 0 0 calc(.092592592vh * 21) 0 #00d3f8;
+}
+
+
+.contracts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.contract {
+    width: calc(.092592592vh * 360);
+    height: calc(.092592592vh * 473);
+    flex-shrink: 0;
+    background-image: url(./huntcontract.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(.092592592vh * 10);
+    margin: 15px;
+}
+
+.contract img {
+    width: 100%;
+    height: auto;
+}
+
+.take-contract {
+    width: 100%;
+    height: calc(.092592592vh * 34);
+    border-radius: calc(.092592592vh * 2);
+    background: rgba(0, 190, 248, 0.14);
+    color: #00d3f8;
+    font-family: Gilroy;
+    font-size: calc(.092592592vh * 12);
+    font-weight: 400;
+    line-height: 108.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    padding: calc(.092592592vh * 15) calc(.092592592vh * 10);
+}
+
+.take-contract:hover {
+    background: rgba(0, 190, 248, 0.24);
+}
+
+.take-contract._disabled {
+    background: rgba(0, 190, 248, 0.04);
+    color: #00d3f83d;
+    cursor: default;
+}
+
+.take-contract._disabled:hover {
+    background: rgba(0, 190, 248, 0.04);
+}
