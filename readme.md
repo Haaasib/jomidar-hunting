@@ -1,7 +1,14 @@
 PREVIEW : https://www.youtube.com/watch?v=uFAzmSYjWXg&t=15s
 CFX FORUM : https://forum.cfx.re/t/free-qbcore-esx-jomidar-hunting-script-inspired-ui/5262923
 
-DISCORD FOR HELP : https://discord.gg/9m2KTFskjx
+# Credits
+* [Hasib](https://github.com/Haaasib/) - Creator
+* [QBCore Devs](https://github.com/qbcore-framework/) - For making an awesome framework and enabling me to do this.
+* QBCore Community - Thank you so much for everyone who's been testing this!
+
+# If You want to report bugs and want support Join Our Discord Server 
+https://discord.com/invite/T7du2nJfyN
+
 -- qb-core/shared/items.lua
 ```
 -- Deer Head item
