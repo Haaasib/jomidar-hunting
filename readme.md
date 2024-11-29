@@ -177,7 +177,7 @@ else
 
 [0R-NPCDIALOG](https://github.com/0resmon/resource-pack/tree/main/0r-npcdialog)
 
-[FREE PROP](https://haaasib.tebex.io/category/scripts)
+[PROP](https://haaasib.tebex.io/category/scripts)
 ![image](https://github.com/user-attachments/assets/05309b58-87c7-4545-9ef1-61996f35c5b3)
 
 ADD THIS TO 0R-NPCDIALOG
